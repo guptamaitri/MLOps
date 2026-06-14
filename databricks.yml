@@ -7,5 +7,3 @@ include:
 targets:
   dev:
     default: true
-    workspace:
-      host: ${env.DATABRICKS_HOST}
