@@ -1,0 +1,8 @@
+resources:
+  jobs:
+    customer-churn-job:
+      name: customer-churn-job
+      tasks:
+        - task_key: train-model
+          spark_python_task:
+            python_file: ./src/train.py
